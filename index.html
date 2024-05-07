@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Genrater</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="input">
+        <input type="text" id="pass-box" placeholder="Testing" disabled>
+        <span class="material-symbols-outlined" id="copy">
+            content_copy
+        </span>
+    </div>
+
+    <div class="pass-len">
+    <label for="">Password Length</label><input type="number" name="check" value="8" id="total-length" checked>
+    </div>
+
+    <div class="uppercase">
+        <label for="">containes UpperCase</label> <input type="checkbox" name="check" id="uppercase" checked>
+    </div>
+
+    <div class="lowercase">
+        <label for="">Containes LowerCase</label> <input type="checkbox" name="check" id="lowercase" checked>
+    </div>
+
+    <div class="num">
+        <label for="">Containes Number</label> <input type="checkbox" name="check" id="number" checked>
+    </div>
+    
+    <div class="special">
+        <label for=""> Special Characters</label> <input type="checkbox" name="check" id="special-case" checked>
+    </div>
+
+    <button id="button">Generate</button>
+</div>
+
+
+    <script src="sript.js"></script>
+</body>
+</html> 

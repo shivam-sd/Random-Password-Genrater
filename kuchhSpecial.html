@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuchh Special</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main{
+    width: 800px;
+    height: 70px;
+    background-color: rgb(41, 35, 35);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px;
+    transition: all 0.5s ease-out;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 800px;
+    height: 70px;
+}
+.plus{
+    font-size: 40px;
+    position:absolute;
+    left: 750px;
+    color: white;
+    cursor: pointer;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="main" id="main">
+            What Is NetFlix?
+        </div>
+        <span class="material-symbols-outlined plus" id="plus" >
+            add
+        </span>
+    </div>
+
+   
+
+
+    <script src="kuchhSpecial.js"></script>
+</body>
+</html>
